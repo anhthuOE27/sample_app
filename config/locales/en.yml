@@ -1,17 +1,32 @@
 en:
-  hello: "Hello world"
   layouts:
     application:
       application_massage: "Ruby on Rails Tutorial Sample App"
       English: "English"
       Vietnamese: "Vietnamese"
+    header:
+      logo: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      content_massage: The %{link_footer} by %{link_author}
+      rubyonrails_href: "Ruby on Rails Tuorial"
+      author_href: "Michael Hart"
+      about: "About"
+      contact: "Contact"
+      news: "%{link_news}"
+      news_href: "News"
   static_pages:
     base_title: "Ruby on Rails Tutorial Sample App"
     home:
+      content: "Welcome to the Sample App"
       content_masage: "This is home page for the %{link_home} sample applicaiton"
       rubyonrails_href: "Ruby on Rails Tuorial"
       title: "Home"
       home_page: "Sample App"
+      signupnow: "Sign up now"
+      alt: "Rails Logo"
     help:
       content_masage_help: "Get help on the Ruby on Rails Tutorial at the %{link_help}. To get help on this sample app, see the %{link_help2}."
       rubyonrails_href: "Rails Tuorial help section"
@@ -30,3 +45,8 @@ en:
       about3: "Ruby on Rails"
       title: "About"
       contact_page: "About"
+  users:
+    new:
+      title: "Sign Up"
+      signup: "Sign up"
+      content: "This will be a signup page for new users."
