@@ -1,0 +1,31 @@
+vi:
+  hello: "Xin chào thế giới"
+  layouts:
+    application:
+      application_massage: "Ứng dụng mẫu Ruby on Rails"
+      English: "Tiếng Anh"
+      Vietnamese: "Tiếng Việt"
+  static_pages:
+    home:
+      content_masage: "Đây là trang chủ của %{link_home} ứng dụng mẫu"
+      rubyonrails_href: "Ruby on Rails Tuorial"
+      title: "Trang chủ"
+      home_page: "Ứng dụng mẫu"
+    help:
+      content_masage_help: "Nhận sự trợ giúp về hướng dẫn Ruby on Rails tại  %{link_help}. Nhận sự trợ giúp cho ứng dụng mẫu này, xem %{link_help2}."
+      rubyonrails_href: "Rails Tuorial help section"
+      rubyonrails_href2: "Ruby on Rails Tutorial book" 
+      title: "Trợ giúp"
+      help_page: "Trợ giúp"
+    contact:
+      content_masage_contact: "Liên hệ hướng dẫn Ruby on Rails về ứng dụng mẫu tại %{link_contact}."
+      contact: "trang liên hệ"
+      title: "Liên hệ"
+      contact_page: "Liên hệ"
+    about:
+      content_masage_about: "%{link_about} là 1 quyển sách và %{link_about2} để dạy phát triển web bằng %{link_about3}. Đây là ứng dụng mẫu cho hướng dẫn này."
+      about: "Ruby on Rails Tutorial"
+      about2: "loạt hình động"
+      about3: "Ruby on Rails"
+      title: "Thông tin"
+      about_page: "Thông tin"

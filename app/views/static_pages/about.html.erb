@@ -1,0 +1,8 @@
+<% provide(:title, t(".title")) %>
+<h1><%= t ".about_page" %></h1>
+<p>
+  <%= t(".content_masage_about",
+    link_about: link_to(t(".about"), "https://www.railstutorial.org/"),
+    link_about2: link_to(t(".about2"), "https://www.railstutorial.org/book"),
+    link_about3: link_to(t(".about3"), "http://rubyonrails.org/")).html_safe %>
+</p>

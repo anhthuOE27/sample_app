@@ -1,0 +1,7 @@
+<% provide(:title, t(".title")) %>
+<h1><%= t ".help_page" %></h1>
+<p>
+  <%= t(".content_masage_help",
+    link_help: link_to(t(".rubyonrails_href"), "https://www.railstutorial.org/help"),
+    link_help2: link_to(t(".rubyonrails_href2"), "https://www.railstutorial.org/book")).html_safe %>
+</p>
