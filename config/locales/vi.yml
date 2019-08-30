@@ -6,6 +6,7 @@ vi:
       English: "Tiếng Anh"
       Vietnamese: "Tiếng Việt"
   static_pages:
+    base_title: "Ứng dụng mẫu Ruby on Rails"
     home:
       content_masage: "Đây là trang chủ của %{link_home} ứng dụng mẫu"
       rubyonrails_href: "Ruby on Rails Tuorial"

@@ -6,6 +6,7 @@ en:
       English: "English"
       Vietnamese: "Vietnamese"
   static_pages:
+    base_title: "Ruby on Rails Tutorial Sample App"
     home:
       content_masage: "This is home page for the %{link_home} sample applicaiton"
       rubyonrails_href: "Ruby on Rails Tuorial"
