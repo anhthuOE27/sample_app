@@ -1,0 +1,6 @@
+<% provide(:title, t(".title")) %>
+<h1><%= t ".home_page" %></h1>
+<p>
+  <%= t(".content_masage",
+    link_home: link_to(t(".rubyonrails_href"), "https://www.railstutorial.org/")).html_safe %>
+</p>
