@@ -43,6 +43,7 @@ en:
       home_page: "Sample App"
       signupnow: "Sign up now"
       alt: "Rails Logo"
+      micropost_feed: "Micropost Feed"
     help:
       content_masage_help: "Get help on the Ruby on Rails Tutorial at the %{link_help}. To get help on this sample app, see the %{link_help2}."
       rubyonrails_href: "Rails Tuorial help section"
@@ -119,6 +120,14 @@ en:
     index:
       title: "All users"
       allusers: "All users"
+    show: 
+      microposts: "Microposts"
+  microposts:
+    micropost:
+      delete: "delete"
+      confirm: "You sure?"
+      posted: "Posted"
+      ago: "ago."
   controllers:
     account_activations:
       success: "Account activated!"
@@ -153,6 +162,14 @@ en:
         danger: "Email nil"
       check_expiration:
         danger: "Password reset has expired."
+    microposts:
+      create: 
+        success: "Micropost created!"
+      destroy:
+        success: "Micropost deleted"
+    application_controllers:
+      logged_in_user:
+        d: "Please log in"
   mailers:
     user_mailers:
       subject: "Account activation"
@@ -160,3 +177,13 @@ en:
   shared:
     error_messages:
       content: "The form contains %{count} error"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      view: "view my profile"
+      micropost: "micropost"
+  models:
+    micropost:
+      picture_size:
+        less5MB: "should be less than 5MB"

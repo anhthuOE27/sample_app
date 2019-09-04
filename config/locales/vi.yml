@@ -44,6 +44,7 @@ vi:
       home_page: "Ứng dụng mẫu"
       signupnow: "Đăng kí"
       alt: "Biểu tượng Rails"
+      micropost_feed: "Micropost Feed"
     help:
       content_masage_help: "Nhận sự trợ giúp về hướng dẫn Ruby on Rails tại  %{link_help}. Nhận sự trợ giúp cho ứng dụng mẫu này, xem %{link_help2}."
       rubyonrails_href: "Rails Tuorial help section"
@@ -108,6 +109,14 @@ vi:
     index:
       title: "Tất Cả Tài Khoản"
       allusers: "Tất Cả Tài Khoản"
+    show: 
+      microposts: "Microposts"
+  microposts:
+    micropost:
+      delete: "Xóa"
+      confirm: "Bạn chắc chứ?"
+      posted: "Đã đăng"
+      ago: "trước."
   controllers:
     account_activations:
       success: "Tài khoản được kích hoạt"
@@ -141,6 +150,14 @@ vi:
         danger: "Email rỗng"
       check_expiration:
         danger: "Đặt lại mật khẩu đã hết hạn."
+    microposts:
+      create: 
+        success: "Micropost đã được tạo!"
+      destroy:
+        success: "Micropost đã được xóa."
+    application_controllers:
+      logged_in_user:
+        d: "Vui lòng đăng nhập"
   mailers:
     user_mailers:
       subject: "Kích hoạt tài khoản"
@@ -148,3 +165,9 @@ vi:
   shared:
     error_messages:
       content: "Biểu mẫu bao gồm %{count} lỗi"
+    micropost_form:
+      placeholder: "Soạn microposts mới..."
+      post: "Đăng"
+    user_info:
+      view: "Xem profile"
+      micropost: "micropost"

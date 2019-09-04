@@ -12,3 +12,10 @@ remember: "1"
 perpage: 9
 gravatar: 80
 reset_sent: 2
+micropost:
+  content:
+    maxcontent: 140
+picturesize: 5
+gravatarsize: 50
+resize: 400
+picture: "image/jpeg,image/gif,image/png"
