@@ -70,13 +70,35 @@ vi:
       email: "Email"
       password: "Mật Khẩu"
       password_confirmation: "Xác Nhận Mật Khẩu"
-      create my account: "Tạo tài khoản"
+      create_my_account: "Tạo tài khoản"
+    form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật Khẩu"
+      password_confirmation: "Xác Nhận Mật Khẩu"
+    user:
+      yousure: "Bạn chắc chứ?"
+      deleted: "xóa"
+    edit:
+      title: "Chỉnh Sửa Tài Khoản"
+      button_text: "Lưu hay đổi"
+      update: "Update your profile"
+    index:
+      title: "Tất Cả Tài Khoản"
+      allusers: "Tất Cả Tài Khoản"
   controllers:
     users:
       create:
         welcome: "Chào mừng đến với ứng dụng mẫu"
       show:
         warn: "Tài khoản không tồn tại."
+      update:
+        update_messages: "Đã chỉnh sửa hồ sơ"
+      destroy:
+        deleted_messages: "Đã xóa tài khoản"
+        deleted_messages_fail: "Bị lỗi"
+      logged_in_user:
+        messages: "Hãy đăng nhập."
     sessions:
       create:
         warn: "Sai email/mật khẩu"
