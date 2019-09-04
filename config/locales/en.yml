@@ -60,6 +60,15 @@ en:
       about3: "Ruby on Rails"
       title: "About"
       contact_page: "About"
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      hi: "Hi"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+    account_activation_text:
+      hi: "Hi"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
   users:
     new:
       title: "Sign Up"
@@ -86,9 +95,13 @@ en:
       title: "All users"
       allusers: "All users"
   controllers:
+    account_activations:
+      success: "Account activated!"
+      danger: "Invalid activation link"
     users:
       create:
         welcome: "Welcome to the Sample App"
+        info: "Please check your email to activate your account."
       show:
         warn: "This user is not exists."
       update:
@@ -101,6 +114,13 @@ en:
     sessions:
       create:
         warn: "Invalid email/password combination"
+      check_activated:
+        message: "Account not activated."
+        message_check: "Check your email for the activation link."
+  mailers:
+    user_mailers:
+      subject: "Account activation"
+      hi: "Hi"
   shared:
     error_messages:
       content: "The form contains %{count} error"
