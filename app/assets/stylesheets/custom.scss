@@ -1,5 +1,5 @@
-@import 'bootstrap-sprockets' ;
-@import 'bootstrap' ;
+@import "bootstrap-sprockets" ;
+@import "bootstrap" ;
 $light-gray: #777;
 $gray-medium-light: #eaeaea;
 $gray: #555;
@@ -7,6 +7,10 @@ $gray-darker: #222;
 $white: #fff;
 $none_gray: #bbb;
 $red: red;
+$am10px: -10px;
+$10px: 10px;
+$20px: 20px;
+
 
 /* universal */
 body {
@@ -170,4 +174,18 @@ input {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+.checkbox {
+  margin-top: $am10px;
+  margin-bottom: $10px;
+  span {
+    margin-left: $20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }

@@ -10,7 +10,7 @@ en:
       help: "Help"
       login: "Log in"
       users: "Users"
-      account: "Acount"
+      account: "Account"
       profile: "Profile"
       settings: "Settings"
       logout: "Log out"
@@ -30,6 +30,8 @@ en:
       signup: "Sign up now!"
       newuser: "New user?"
       title: "Log in"
+      remember_me: "Remember me?"
+      remember_contain: "Remember me on this computer"
   static_pages:
     base_title: "Ruby on Rails Tutorial Sample App"
     home:

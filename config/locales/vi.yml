@@ -31,6 +31,8 @@ vi:
       signup: "Đăng kí ngay!"
       newuser: "Tài khoản mới?"
       title: "Đăng Nhập"
+      remember_me: "Nhớ tôi?"
+      remember_contain: "Nhớ tôi ở máy tính này"
   static_pages:
     base_title: "Ứng dụng mẫu Ruby on Rails"
     home:
