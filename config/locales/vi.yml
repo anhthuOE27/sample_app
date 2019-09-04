@@ -5,13 +5,29 @@ vi:
       application_massage: "Ứng dụng mẫu Ruby on Rails"
       English: "Tiếng Anh"
       Vietnamese: "Tiếng Việt"
+    header:
+      logo: "ứng dụng mẫu"
+      home: "Trang Chủ"
+      help: "Trợ Giúp"
+      login: "Đăng Nhập"  
+    footer:
+      content_massage: "The %{link_footer} viết bởi %{link_author}"
+      rubyonrails_href: "Ruby on Rails Tuorial"
+      author_href: "Michael Hart"
+      about: "Thông Tin"
+      contact: "Liên Hệ"
+      news: "%{link_news}"
+      news_href: "Tin Tức"
   static_pages:
     base_title: "Ứng dụng mẫu Ruby on Rails"
     home:
+      content: "Chào mừng đến với Ứng dụng mẫu"
       content_masage: "Đây là trang chủ của %{link_home} ứng dụng mẫu"
       rubyonrails_href: "Ruby on Rails Tuorial"
       title: "Trang chủ"
       home_page: "Ứng dụng mẫu"
+      signupnow: "Đăng kí"
+      alt: "Biểu tượng Rails"
     help:
       content_masage_help: "Nhận sự trợ giúp về hướng dẫn Ruby on Rails tại  %{link_help}. Nhận sự trợ giúp cho ứng dụng mẫu này, xem %{link_help2}."
       rubyonrails_href: "Rails Tuorial help section"
@@ -30,3 +46,8 @@ vi:
       about3: "Ruby on Rails"
       title: "Thông tin"
       about_page: "Thông tin"
+  users:
+    new:
+      title: "Đăng Nhập"
+      signup: "Đăng Nhập"
+      content: "Đây là trang đăng nhập cho người dùng mới."
