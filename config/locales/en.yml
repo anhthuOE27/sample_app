@@ -8,7 +8,12 @@ en:
       logo: "sample app"
       home: "Home"
       help: "Help"
-      login: "Login"
+      login: "Log in"
+      users: "Users"
+      account: "Acount"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
     footer:
       content_massage: The %{link_footer} by %{link_author}
       rubyonrails_href: "Ruby on Rails Tuorial"
@@ -17,6 +22,14 @@ en:
       contact: "Contact"
       news: "%{link_news}"
       news_href: "News"
+  sessions:
+    new:
+      email: "Email"
+      password: "Password"
+      login: "Log in"
+      signup: "Sign up now!"
+      newuser: "New user?"
+      title: "Log in"
   static_pages:
     base_title: "Ruby on Rails Tutorial Sample App"
     home:
@@ -61,6 +74,9 @@ en:
         welcome: "Welcome to the Sample App"
       show:
         warn: "This user is not exists."
+    sessions:
+      create:
+        warn: "Invalid email/password combination"
   shared:
     error_messages:
       content: "The form contains %{count} error"
