@@ -19,3 +19,4 @@ picturesize: 5
 gravatarsize: 50
 resize: 400
 picture: "image/jpeg,image/gif,image/png"
+sizegravatar: 30

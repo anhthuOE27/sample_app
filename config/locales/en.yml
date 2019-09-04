@@ -122,6 +122,12 @@ en:
       allusers: "All users"
     show: 
       microposts: "Microposts"
+    show_follow:
+      microposts: "Microposts:"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
   microposts:
     micropost:
       delete: "delete"
@@ -145,11 +151,17 @@ en:
         deleted_messages_fail: "Fail"
       logged_in_user:
         messages: "Please log in."
+      following:
+        title_following: "Following"
+      followers:
+        title_followers: "Followers"
+      load_user: 
+        warning: "Users not find"
     sessions:
       create:
         warn: "Invalid email/password combination"
       check_activated:
-        message: "Account not activated."
+        message: "Log in successfully"
         message_check: "Check your email for the activation link."  
     password_resets:
       create:
@@ -170,6 +182,11 @@ en:
     application_controllers:
       logged_in_user:
         d: "Please log in"
+    relationships:
+      load_user:
+        danger: "User not exits"
+      load_relationship: 
+        warning: "Relationship not exits"
   mailers:
     user_mailers:
       subject: "Account activation"
