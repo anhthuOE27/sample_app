@@ -11,3 +11,4 @@ users:
 remember: "1"
 perpage: 9
 gravatar: 80
+reset_sent: 2
