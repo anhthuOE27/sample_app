@@ -9,7 +9,12 @@ vi:
       logo: "ứng dụng mẫu"
       home: "Trang Chủ"
       help: "Trợ Giúp"
-      login: "Đăng Nhập"  
+      login: "Đăng Nhập"
+      users: "Người Dùng"
+      account: "Tài Khoản"
+      profile: "Hồ sơ"
+      settings: "Thiết Lập"
+      log out: "Đăng xuất"
     footer:
       content_massage: "The %{link_footer} viết bởi %{link_author}"
       rubyonrails_href: "Ruby on Rails Tuorial"
@@ -18,6 +23,14 @@ vi:
       contact: "Liên Hệ"
       news: "%{link_news}"
       news_href: "Tin Tức"
+  sessions:
+    new:
+      email: "Email"
+      password: "Mật Khẩu"
+      login: "Đăng Nhập"
+      signup: "Đăng kí ngay!"
+      newuser: "Tài khoản mới?"
+      title: "Đăng Nhập"
   static_pages:
     base_title: "Ứng dụng mẫu Ruby on Rails"
     home:
@@ -62,6 +75,9 @@ vi:
         welcome: "Chào mừng đến với ứng dụng mẫu"
       show:
         warn: "Tài khoản không tồn tại."
+    sessions:
+      create:
+        warn: "Sai email/mật khẩu"
   shared:
     error_messages:
       content: "Biểu mẫu bao gồm %{count} lỗi"
