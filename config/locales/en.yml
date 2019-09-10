@@ -69,13 +69,35 @@ en:
       email: "Email"
       password: "Password"
       password_confirmation: "Password_confirmation"
-      create my account: "Create my account"
+      create_my_account: "Create my account"
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password_confirmation"
+    user:
+      yousure: "You sure?"
+      deleted: "delete"
+    edit:
+      title: "Edit User"
+      button_text: "Save changes"
+      update: "Update your profile"
+    index:
+      title: "All users"
+      allusers: "All users"
   controllers:
     users:
       create:
         welcome: "Welcome to the Sample App"
       show:
         warn: "This user is not exists."
+      update:
+        update_messages: "Profile updated"
+      destroy:
+        deleted_messages: "User deleted"
+        deleted_messages_fail: "Fail"
+      logged_in_user:
+        messages: "Please log in."
     sessions:
       create:
         warn: "Invalid email/password combination"

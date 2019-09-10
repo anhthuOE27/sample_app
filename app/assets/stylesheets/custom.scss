@@ -8,8 +8,8 @@ $white: #fff;
 $none_gray: #bbb;
 $red: red;
 $am10px: -10px;
-$10px: 10px;
-$20px: 20px;
+$d10px: 10px;
+$d20px: 20px;
 
 
 /* universal */
@@ -178,9 +178,9 @@ input {
 
 .checkbox {
   margin-top: $am10px;
-  margin-bottom: $10px;
+  margin-bottom: $d10px;
   span {
-    margin-left: $20px;
+    margin-left: $d20px;
     font-weight: normal;
   }
 }
@@ -188,4 +188,15 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+/* Users index */
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $light-gray;
+  }
 }
