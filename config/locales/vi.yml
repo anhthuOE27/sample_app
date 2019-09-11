@@ -61,6 +61,15 @@ vi:
       about3: "Ruby on Rails"
       title: "Thông tin"
       about_page: "Thông tin"
+  user_mailer:
+    account_activation:
+      title: "Ứng Dụng Mẫu"
+      hi: "Chào"
+      content: "Chào mừng đến ứng dụng mẫu! Bấm vào link bên dưới để kích hoạt tài khoản:"
+      activate: "Kích hoạt"
+    account_activation_text:
+      hi: "Chào"
+      content: "Chào mừng đến ứng dụng mẫu! Bấm vào link bên dưới để kích hoạt tài khoản:"
   users:
     new:
       title: "Đăng Nhập"
@@ -87,9 +96,13 @@ vi:
       title: "Tất Cả Tài Khoản"
       allusers: "Tất Cả Tài Khoản"
   controllers:
+    account_activations:
+      success: "Tài khoản được kích hoạt"
+      danger: "Link kích hoạt lỗi"
     users:
       create:
         welcome: "Chào mừng đến với ứng dụng mẫu"
+        info: "Vui lòng kiểm tra link để kích hoạt."
       show:
         warn: "Tài khoản không tồn tại."
       update:
@@ -102,6 +115,12 @@ vi:
     sessions:
       create:
         warn: "Sai email/mật khẩu"
+        message: "Tài khoản không được kích hoạt"
+        message_check: "Kiểm tra email để kích hoạt."
+  mailers:
+    user_mailers:
+      subject: "Kích hoạt tài khoản"
+      hi: "Chào"
   shared:
     error_messages:
       content: "Biểu mẫu bao gồm %{count} lỗi"
