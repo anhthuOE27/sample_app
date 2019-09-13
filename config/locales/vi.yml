@@ -33,6 +33,7 @@ vi:
       title: "Đăng Nhập"
       remember_me: "Nhớ tôi?"
       remember_contain: "Nhớ tôi ở máy tính này"
+      forgotpass: "Quên mật khẩu"
   static_pages:
     base_title: "Ứng dụng mẫu Ruby on Rails"
     home:
@@ -70,6 +71,18 @@ vi:
     account_activation_text:
       hi: "Chào"
       content: "Chào mừng đến ứng dụng mẫu! Bấm vào link bên dưới để kích hoạt tài khoản:"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      p: "Để đặt lại mật khẩu bấm vào link bên dưới:"
+      reset_password: "Đặt lại mật khẩu"
+      pcontent: "Link này sẽ hết hiệu lực trong 2 giờ."
+      pcontent2: "Nếu bạn không yêu cầu đặt lại mật khẩu,
+       vui lòng bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên."
+    password_reset_text:
+      text: "Để đặt lại mật khẩu bấm vào link bên dưới:"
+      content: "Link này sẽ hết hiệu lực trong 2 giờ.
+        Nếu bạn không yêu cầu đặt lại mật khẩu,
+         vui lòng bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên."
   users:
     new:
       title: "Đăng Nhập"
@@ -117,6 +130,17 @@ vi:
         warn: "Sai email/mật khẩu"
         message: "Tài khoản không được kích hoạt"
         message_check: "Kiểm tra email để kích hoạt."
+    password_resets:
+      create:
+        info: "Email gửi đi với hướng dẫn đặt lại mật khẩu"
+        danger: "Địa chỉ email không tìm thấy"
+      update:
+        nil: "không được để trống"
+        success: "Mật khẩu đã được đặt lại."
+      load_user:
+        danger: "Email rỗng"
+      check_expiration:
+        danger: "Đặt lại mật khẩu đã hết hạn."
   mailers:
     user_mailers:
       subject: "Kích hoạt tài khoản"
