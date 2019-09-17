@@ -111,6 +111,12 @@ vi:
       allusers: "Tất Cả Tài Khoản"
     show: 
       microposts: "Microposts"
+    show_follow:
+      microposts: "Microposts:"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
   microposts:
     micropost:
       delete: "Xóa"
@@ -134,10 +140,16 @@ vi:
         deleted_messages_fail: "Bị lỗi"
       logged_in_user:
         messages: "Hãy đăng nhập."
+      following:
+        title_following: "Đang theo dõi"
+      followers:
+        title_followers: "Người theo dõi"
+      load_user: 
+        warning: "User không tìm thấy"
     sessions:
       create:
         warn: "Sai email/mật khẩu"
-        message: "Tài khoản không được kích hoạt"
+        message: "Đăng nhập thành công"
         message_check: "Kiểm tra email để kích hoạt."
     password_resets:
       create:
@@ -158,6 +170,11 @@ vi:
     application_controllers:
       logged_in_user:
         d: "Vui lòng đăng nhập"
+    relationships:
+      load_user:
+        danger: "User không tồn tại"
+      load_relationship: 
+        warning: "Relationship không tồn tại"
   mailers:
     user_mailers:
       subject: "Kích hoạt tài khoản"
